@@ -23,10 +23,10 @@ print("4.Divide")
 
 while True:
   # take input from user
-  choice = input("Enter Choice (1/2/3/4/5):")
+  choice = input("Enter Choice (1/2/3/4):")
 
   # check if choice is one of the four options
-  if choice in ('1','2','3','4','5'):
+  if choice in ('1','2','3','4'):
     try:
       num1 = float(input("Enter first number:"))
       num2 = float(input("Enter second number:"))
